@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pupa Clic</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header class="header">
+    <a href="" class="logo">Pupa Clic </a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+ 
+    <ul class="menu">
+      <li><a href="#home"><i class="fa fa-home"> Home</i></a></li>
+      <li><a href="#features"><i class="fa fa-gears"> Features</i></a></li>
+      <li><a href="#cta"><i class="fa fa-volume-control-phone"> Call to Action</i></a></li>
+      <li><a href="#testimonials"><i class="fa fa-asterisk"> Testimonials</a></i></a></li>
+    </ul>
+   
+  </header>
+  <section id="home">
+    <h2 class="Text-Products"> Products</h2>
+    <p>Find the best products for all your needs.</p>
+    <img id="slider" src="image1.jpg" alt="Image Slider" class="mySlides">
+    
+  </section>
+
+  <section id="features">
+    <h2>Features</h2>
+    <ul class="features-list">
+      <li>Powerful processor</li>
+      <li>High-resolution display</li>
+      <li>Large storage capacity</li>
+      <li>Long battery life</li>
+      <li>Fast SSD storage</li>
+      <li>Multiple USB ports</li>
+      <li>Backlit keyboard</li>
+    </ul>
+  </section>
+  
+
+  <section id="cta">
+    <h2>Get Started Now</h2>
+    <p>Sign up to unlock exclusive offers.</p>
+    <form id="signup-form" onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <button type="submit"class="Signup-Button">Sign Up</button>
+    </form>
+  </section>
+
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial">
+      <p>"The laptop exceeded my expectations in terms of performance and portability. It's been a game-changer for my work."</p>
+      <span>- John Doe</span>
+    </div>
+    <div class="testimonial">
+      <p>"The laptop's sleek design and impressive battery life make it the perfect companion for my on-the-go lifestyle."</p>
+      <span>- Jane Smith</span>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Pupa Clic. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+ </body>
+</html>
